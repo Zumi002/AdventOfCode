@@ -13,21 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Day1">
+      <UniqueIdentifier>{87dfea74-ac68-44ad-ac54-34215c55cf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day2">
+      <UniqueIdentifier>{4409a230-00aa-4644-a7fd-f1d6a005ea43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day3">
+      <UniqueIdentifier>{29e49fb1-3fcf-49af-8d3f-57d4786ee244}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mian.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="FileReading.cpp">
+    <ClCompile Include="Utility\FileReading.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="day1.cpp">
+    <ClCompile Include="Utility\SupportFunc.cpp">
       <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Day1\Day1.cpp">
+      <Filter>Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2\Day2.cpp">
+      <Filter>Day2</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Day3.cpp">
+      <Filter>Day3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileReading.h">
-      <Filter>Pliki źródłowe</Filter>
+    <ClInclude Include="Utility\AOCdays.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\FileReading.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SupportFunc.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Day1\Day1.h">
+      <Filter>Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="Day2\Day2.h">
+      <Filter>Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Day3.h">
+      <Filter>Day3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
