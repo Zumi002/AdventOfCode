@@ -6,7 +6,6 @@
 using namespace std;
 
 
-
 void Day2()
 {
 	myFile in = myFile();
@@ -18,6 +17,8 @@ void Day2()
 		int a, b;
 		a = in.inputWords[i][0][0] % 'A' + 1;
 		b = in.inputWords[i][1][0] % 'X' + 1;
+
+		//round 1
 		score += b;
 		if (a + 1 == b || a - 2 == b)
 		{
@@ -28,6 +29,7 @@ void Day2()
 			score += 3;
 		}
 
+		//round 2
 		if (b == 1)
 		{
 			score2 += a - 1 > 0 ? a - 1 : 3;
