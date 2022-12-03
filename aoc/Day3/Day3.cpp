@@ -15,28 +15,8 @@ void Day3()
 		string o = in.inputLines[i];
 		string r1 = o.substr(0, o.size() / 2), r2 = o.substr((o.size() / 2), o.size() / 2);
 
-		for (char a : r1)
-		{
-			if (a <= 'Z')
-			{
-				prio1[a % 'A' + 26]++;
-			}
-			else
-			{
-				prio1[a % 'a']++;
-			}
-		}
-		for (char a : r2)
-		{
-			if (a <= 'Z')
-			{
-				prio2[a % 'A'+26]++;
-			}
-			else
-			{
-				prio2[a % 'a']++;
-			}
-		}
+		for (char a : r1) prio1[a <= 'Z' ? a % 'A' + 26 : a % 'a']++;
+		for (char a : r2) prio2[a <= 'Z' ? a % 'A' + 26 : a % 'a']++;
 
 		for (int i = 0; i < 52; i++)
 		{
@@ -51,39 +31,10 @@ void Day3()
 	for (int i = 0; i < in.nol; i+=3)
 	{
 		string o1 = in.inputLines[i], o2= in.inputLines[i+1], o3=in.inputLines[i+2];
-		for (char a : o1)
-		{
-			if (a <= 'Z')
-			{
-				prio1[a % 'A' + 26]++;
-			}
-			else
-			{
-				prio1[a % 'a']++;
-			}
-		}
-		for (char a : o2)
-		{
-			if (a <= 'Z')
-			{
-				prio2[a % 'A' + 26]++;
-			}
-			else
-			{
-				prio2[a % 'a']++;
-			}
-		}
-		for (char a : o3)
-		{
-			if (a <= 'Z')
-			{
-				prio3[a % 'A' + 26]++;
-			}
-			else
-			{
-				prio3[a % 'a']++;
-			}
-		}
+
+		for (char a : o1) prio1[a <= 'Z' ? a % 'A' + 26 : a % 'a']++;
+		for (char a : o2) prio2[a <= 'Z' ? a % 'A' + 26 : a % 'a']++;
+		for (char a : o3) prio3[a <= 'Z'?a % 'A' + 26: a % 'a']++;
 
 		for (int i = 0; i < 52; i++)
 		{
