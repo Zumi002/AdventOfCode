@@ -10,6 +10,8 @@ void Day3()
 	in.ReadFile();
 	int sum = 0, sum2 =0;
 	int prio1[52]{}, prio2[52]{}, prio3[52]{};
+
+	//packed items
 	for (int i = 0; i < in.nol; i++)
 	{
 		string o = in.inputLines[i];
@@ -28,6 +30,8 @@ void Day3()
 			if (prio2[i])prio2[i] = 0;
 		}
 	}
+
+	//groups badge
 	for (int i = 0; i < in.nol; i+=3)
 	{
 		string o1 = in.inputLines[i], o2= in.inputLines[i+1], o3=in.inputLines[i+2];
