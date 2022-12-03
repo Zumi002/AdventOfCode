@@ -1,5 +1,6 @@
 #include "SupportFunc.h"
 
+
 int ClampS(int x, int a)
 {
 
