@@ -1,5 +1,5 @@
 #include "FileReading.h"
-
+#include "SupportFunc.h"
 
 int myFile::Open(string path)
 {
@@ -35,30 +35,9 @@ void myFile::GetInputLinesAndWords()
 		string tmp = NextLine();
 		nol++;
 		inputLines.push_back(tmp);
-		vector<string> words;
-		now.push_back(0);
-		if (tmp == "")
-		{
-			now[nol - 1]++;
-			words.push_back("");
-		}
-		string word = "";
-		for(char a : tmp)
-		{
-			if (a == ' ')
-			{
-				words.push_back(word);
-				now[nol - 1]++;
-				word = "";
-			}
-			else
-			{
-				word += a;
-			}
-		}
-		now[nol - 1]++;
-		words.push_back(word);
-		inputWords.push_back(words);
+
+		inputWords.push_back(split(tmp,' '));
+		now.push_back(inputWords[nol-1].size());
 	}
 
 
