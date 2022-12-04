@@ -12,7 +12,7 @@ void Day4()
 
 	for (int i = 0; i < in.nol; i++)
 	{
-		vector<string> leftRange = split(split(in.inputLines[i], ',')[0], '-'),
+		vector<string> leftRange  = split(split(in.inputLines[i], ',')[0], '-'),
 			       rightRange = split(split(in.inputLines[i], ',')[1], '-');
 
 		int a = stoi(leftRange[0]),  b = stoi(leftRange[1]),
