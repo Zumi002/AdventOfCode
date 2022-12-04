@@ -38,5 +38,5 @@ void Day4()
 			sum2++;
 		}
 	}
-	cout << sum<<" " <<sum2;
+	cout << sum << " " << sum2;
 }
