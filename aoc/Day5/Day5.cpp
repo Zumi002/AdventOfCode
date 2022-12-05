@@ -48,7 +48,7 @@ void Day5()
 
 		stack<string> buffer;
 		//part 1: stack->stack || part 2: stack->buffer->stack
-		//			   ^rev -> reverse order    ^rev  + ^rev -> normal  
+		// 	        ^rev -> reverse order  ^rev  + ^rev -> normal  
 		for (int j = 0; j < quantity; j++)
 		{
 			places[to].push(places[from].top());
