@@ -1,5 +1,5 @@
 #include "SupportFunc.h"
-
+#include <set>
 
 int ClampS(int x, int a)
 {
@@ -29,4 +29,18 @@ vector<string> split(string str, char delimiter)
 	}
 	res.push_back(word);
 	return res;
+}
+
+int FirstUniqeCharsIndex(string str, int span, int step)
+{
+	int sliderLeft = 0, sliderRight = sliderLeft + span;
+	while (sliderRight < str.size())
+	{
+		set<char> lstChars;
+		for (char a : str.substr(sliderLeft, span))lstChars.insert(a);
+		if (lstChars.size() == span) return sliderRight;
+		sliderLeft += step;
+		sliderRight += step;
+	}
+	return -1;
 }
