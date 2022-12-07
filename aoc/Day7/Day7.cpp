@@ -55,11 +55,7 @@ void Day7()
 					Folder* a = new Folder();
 					a->name = in.inputWords[i][2];
 
-					if (dependecy.size() > 0)
-					{
-						dependecy.top()->inside.push_back(a);
-					}
-
+					dependecy.top()->inside.push_back(a);
 					a->above = dependecy.top();
 
 					dependecy.push(a);
