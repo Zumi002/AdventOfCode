@@ -34,14 +34,14 @@ void Day7()
 
 	//a list of all folders
 	vector<Folder*> Folders; 
-	//remembers folder which were above
+	//remembers folders which were above
 	stack<Folder*> dependecy;
 
 	dependecy.push(computer);
 
 	for (int i = 0; i < in.nol; i++)
 	{
-		//if comand
+		//if command
 		if (in.inputWords[i][0] == "$")
 		{
 			if (in.inputWords[i][1] == "cd")
@@ -71,7 +71,7 @@ void Day7()
 		//by default if not command then its list from $ ls
 		else
 		{
-			//if its file not folder
+			//if listed file, not folder 
 			if (in.inputWords[i][0] != "dir")
 			{
 				dependecy.top()->size += stoi(in.inputWords[i][0]);
