@@ -80,8 +80,8 @@ void Day7()
 	}
 	int sum = 0;
 	int maxdelsize = computer->CalcSize(),
-		unusedSpace = 70000000 - computer->CalcSize(),
-		toFree = 30000000 - unusedSpace;
+	    unusedSpace = 70000000 - computer->CalcSize(),
+	    toFree = 30000000 - unusedSpace;
 
 	Folder* ToDelete = computer;
 
