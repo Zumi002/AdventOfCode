@@ -31,6 +31,9 @@
     <Filter Include="Day6">
       <UniqueIdentifier>{6f289126-ce11-49b0-b4c8-1fb4faaa6fd5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Day7">
+      <UniqueIdentifier>{5f11e813-60ce-44ae-9b5c-43eb41c2f07c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -60,6 +63,9 @@
     <ClCompile Include="Day6\Day6.cpp">
       <Filter>Day6</Filter>
     </ClCompile>
+    <ClCompile Include="Day7\Day7.cpp">
+      <Filter>Day7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\AOCdays.h">
@@ -88,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="Day6\Day6.h">
       <Filter>Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day7\Day7.h">
+      <Filter>Day7</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
