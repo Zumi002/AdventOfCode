@@ -35,9 +35,9 @@ void Day7()
 	//a list of all folders
 	vector<Folder*> Folders; 
 	//remembers folders which were above
-	stack<Folder*> dependecy;
+	stack<Folder*> dependency;
 
-	dependecy.push(computer);
+	dependency.push(computer);
 
 	for (int i = 0; i < in.nol; i++)
 	{
@@ -48,17 +48,17 @@ void Day7()
 			{
 				if (in.inputWords[i][2] == "..")
 				{
-					dependecy.pop();
+					dependency.pop();
 				}
 				else
 				{
 					Folder* a = new Folder();
 					a->name = in.inputWords[i][2];
 
-					dependecy.top()->inside.push_back(a);
-					a->above = dependecy.top();
+					dependency.top()->inside.push_back(a);
+					a->above = dependency.top();
 
-					dependecy.push(a);
+					dependency.push(a);
 					Folders.push_back(a);
 				}
 			}
@@ -70,7 +70,7 @@ void Day7()
 			//if listed file, not folder 
 			if (in.inputWords[i][0] != "dir")
 			{
-				dependecy.top()->size += stoi(in.inputWords[i][0]);
+				dependency.top()->size += stoi(in.inputWords[i][0]);
 			}
 		}
 	}
