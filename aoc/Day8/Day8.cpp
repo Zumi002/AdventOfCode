@@ -13,10 +13,10 @@ void Day8()
 	//part1
 	set<pair<int, int>> visible;
 
-	//horizontal
+	
 	int maxX = in.inputLines[0].size(),
 		maxY = in.nol;
-
+	//horizontal
 	for (int row = 0; row <maxY; row++)
 	{
 		int maxLeftTree = -1,maxRightTree = -1;
