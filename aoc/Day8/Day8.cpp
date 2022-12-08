@@ -17,7 +17,7 @@ void Day8()
 	int maxX = in.inputLines[0].size(),
 		maxY = in.nol;
 	//horizontal
-	for (int row = 0; row <maxY; row++)
+	for (int row = 1; row <maxY-1; row++)
 	{
 		int maxLeftTree = -1,maxRightTree = -1;
 		for (int collumn = 0; collumn < maxX; collumn++)
@@ -36,8 +36,8 @@ void Day8()
 			}
 		}
 	}
-	//vertical
-	for (int collumn = 0; collumn < maxX; collumn++)
+	//vertical, but without
+	for (int collumn = 1; collumn < maxX-1; collumn++)
 	{
 		int maxUpTree = -1, maxDownTree = -1;
 		for (int row = 0; row < maxY; row++)
@@ -102,5 +102,5 @@ void Day8()
 		}
 	}
 
-	cout << visible.size() << " "<<maxScore;
+	cout << visible.size() +4 << " "<<maxScore;
 }
