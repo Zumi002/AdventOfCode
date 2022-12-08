@@ -150,6 +150,7 @@
     <ClCompile Include="Day5\Day5.cpp" />
     <ClCompile Include="Day6\Day6.cpp" />
     <ClCompile Include="Day7\Day7.cpp" />
+    <ClCompile Include="Day8\Day8.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Utility\FileReading.cpp" />
     <ClCompile Include="Utility\SupportFunc.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Day5\Day5.h" />
     <ClInclude Include="Day6\Day6.h" />
     <ClInclude Include="Day7\Day7.h" />
+    <ClInclude Include="Day8\Day8.h" />
     <ClInclude Include="Utility\AOCdays.h" />
     <ClInclude Include="Utility\FileReading.h" />
     <ClInclude Include="Utility\SupportFunc.h" />

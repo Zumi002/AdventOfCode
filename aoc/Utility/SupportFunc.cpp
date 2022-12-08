@@ -44,3 +44,11 @@ int FirstUniqeCharsIndex(string str, int span, int step)
 	}
 	return -1;
 }
+
+bool IsSubstrUniqe(string str)
+{
+	set<char> chars;
+	for (char a : str)chars.insert(a);
+	if (chars.size() == str.size()) return true;
+	return false;
+}
