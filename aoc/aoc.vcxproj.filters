@@ -78,6 +78,9 @@
     <ClCompile Include="Day9\Day9.cpp">
       <Filter>Day9</Filter>
     </ClCompile>
+    <ClCompile Include="Day9\Day9Anim.cpp">
+      <Filter>Day9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\AOCdays.h">
@@ -114,6 +117,9 @@
       <Filter>Day8</Filter>
     </ClInclude>
     <ClInclude Include="Day9\Day9.h">
+      <Filter>Day9</Filter>
+    </ClInclude>
+    <ClInclude Include="Day9\Day9Anim.h">
       <Filter>Day9</Filter>
     </ClInclude>
   </ItemGroup>
