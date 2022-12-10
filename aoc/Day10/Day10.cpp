@@ -1,5 +1,6 @@
 #include "../Utility/SupportFunc.h"
 #include "Day10.h"
+#include <Windows.h>
 
 #define STRENGHTEN_SIGNAL_CHECK if ((clock - 20) % 40 == 0)sum += clock * reg;
 #define CLOCK_TICK clock += 1;
@@ -9,7 +10,7 @@
 #define COMPUTER_TICK CLOCK_TICK\
 					  STRENGHTEN_SIGNAL_CHECK\
 					  CRT_PIXEL_DRAW\
-					  CRT_NEWLINE_CHECK\
+					  CRT_NEWLINE_CHECK
 
 void Day10()
 {
