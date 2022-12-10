@@ -13,3 +13,4 @@
 #include "../Day7/Day7.h"
 #include "../Day8/Day8.h"
 #include "../Day9/Day9.h"
+#include "../Day10/Day10.h"
