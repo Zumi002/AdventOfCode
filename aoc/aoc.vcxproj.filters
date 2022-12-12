@@ -43,6 +43,15 @@
     <Filter Include="Day10">
       <UniqueIdentifier>{3840719f-c29e-44ad-ad32-aae2648adf82}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Template">
+      <UniqueIdentifier>{c8629e86-21ab-4579-ab21-c38e07799f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day11">
+      <UniqueIdentifier>{4edb55c4-4a5f-4c19-a1df-30c9edb96b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day12">
+      <UniqueIdentifier>{6e331234-8ae7-408a-89f5-f8d8acc9d83b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -87,6 +96,15 @@
     <ClCompile Include="Day10\Day10.cpp">
       <Filter>Day10</Filter>
     </ClCompile>
+    <ClCompile Include="Template\DayX.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Day11\Day11.cpp">
+      <Filter>Day11</Filter>
+    </ClCompile>
+    <ClCompile Include="Day12\Day12.cpp">
+      <Filter>Day12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\AOCdays.h">
@@ -130,6 +148,15 @@
     </ClInclude>
     <ClInclude Include="Day10\Day10.h">
       <Filter>Day10</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\DayX.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Day11\Day11.h">
+      <Filter>Day11</Filter>
+    </ClInclude>
+    <ClInclude Include="Day12\Day12.h">
+      <Filter>Day12</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

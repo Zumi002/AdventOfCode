@@ -9,6 +9,6 @@ using namespace std;
 
 int main()
 {
-	Day10();
+	Day12();
 	return 0;
 }

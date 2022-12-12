@@ -144,6 +144,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Day10\Day10.cpp" />
+    <ClCompile Include="Day11\Day11.cpp" />
+    <ClCompile Include="Day12\Day12.cpp" />
     <ClCompile Include="Day1\Day1.cpp" />
     <ClCompile Include="Day2\Day2.cpp" />
     <ClCompile Include="Day3\Day3.cpp" />
@@ -155,11 +157,14 @@
     <ClCompile Include="Day9\Day9.cpp" />
     <ClCompile Include="Day9\Day9Anim.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Template\DayX.cpp" />
     <ClCompile Include="Utility\FileReading.cpp" />
     <ClCompile Include="Utility\SupportFunc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day10\Day10.h" />
+    <ClInclude Include="Day11\Day11.h" />
+    <ClInclude Include="Day12\Day12.h" />
     <ClInclude Include="Day1\Day1.h" />
     <ClInclude Include="Day2\Day2.h" />
     <ClInclude Include="Day3\Day3.h" />
@@ -170,6 +175,7 @@
     <ClInclude Include="Day8\Day8.h" />
     <ClInclude Include="Day9\Day9.h" />
     <ClInclude Include="Day9\Day9Anim.h" />
+    <ClInclude Include="Template\DayX.h" />
     <ClInclude Include="Utility\AOCdays.h" />
     <ClInclude Include="Utility\FileReading.h" />
     <ClInclude Include="Utility\SupportFunc.h" />
