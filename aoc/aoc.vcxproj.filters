@@ -52,6 +52,18 @@
     <Filter Include="Day12">
       <UniqueIdentifier>{6e331234-8ae7-408a-89f5-f8d8acc9d83b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Day13">
+      <UniqueIdentifier>{6467f2f1-a2f4-43e5-b545-96d5822e9aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day14">
+      <UniqueIdentifier>{73f3d598-5b1c-44f9-a240-dabb687943ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day15">
+      <UniqueIdentifier>{f70a22a4-d2d1-4926-82db-8d60da506ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day16">
+      <UniqueIdentifier>{1f8b8a54-a90a-4e25-9436-17a93a5fd265}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -105,6 +117,18 @@
     <ClCompile Include="Day12\Day12.cpp">
       <Filter>Day12</Filter>
     </ClCompile>
+    <ClCompile Include="Day13\Day13.cpp">
+      <Filter>Day13</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14\Day14.cpp">
+      <Filter>Day14</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15\Day15.cpp">
+      <Filter>Day15</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16\Day16.cpp">
+      <Filter>Day16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\AOCdays.h">
@@ -157,6 +181,18 @@
     </ClInclude>
     <ClInclude Include="Day12\Day12.h">
       <Filter>Day12</Filter>
+    </ClInclude>
+    <ClInclude Include="Day13\Day13.h">
+      <Filter>Day13</Filter>
+    </ClInclude>
+    <ClInclude Include="Day14\Day14.h">
+      <Filter>Day14</Filter>
+    </ClInclude>
+    <ClInclude Include="Day15\Day15.h">
+      <Filter>Day15</Filter>
+    </ClInclude>
+    <ClInclude Include="Day16\Day16.h">
+      <Filter>Day16</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
