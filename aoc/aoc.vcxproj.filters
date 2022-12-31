@@ -64,6 +64,30 @@
     <Filter Include="Day16">
       <UniqueIdentifier>{1f8b8a54-a90a-4e25-9436-17a93a5fd265}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Day17">
+      <UniqueIdentifier>{dc93de41-33a2-46fc-851b-1553038b18a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day18">
+      <UniqueIdentifier>{5b34c6e9-63e8-4819-8106-3967c500dbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day19">
+      <UniqueIdentifier>{064dee17-05cd-47b2-847c-519f33ef6208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day20">
+      <UniqueIdentifier>{b3ee2692-c49d-465e-8269-368f28b24563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day21">
+      <UniqueIdentifier>{960031fa-9503-43d2-8782-10223f7403a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day22">
+      <UniqueIdentifier>{84b1454e-4435-46ea-ab91-636d83e8515a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day23">
+      <UniqueIdentifier>{50488f69-0a0d-4ca1-9048-e85efdfcbf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Day24">
+      <UniqueIdentifier>{1e6c8f6c-7fdc-444d-a4de-d2b412ef6cf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -129,6 +153,30 @@
     <ClCompile Include="Day16\Day16.cpp">
       <Filter>Day16</Filter>
     </ClCompile>
+    <ClCompile Include="Day17\Day17.cpp">
+      <Filter>Day17</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18\Day18.cpp">
+      <Filter>Day18</Filter>
+    </ClCompile>
+    <ClCompile Include="Day19\Day19.cpp">
+      <Filter>Day19</Filter>
+    </ClCompile>
+    <ClCompile Include="Day20\Day20.cpp">
+      <Filter>Day20</Filter>
+    </ClCompile>
+    <ClCompile Include="Day21\Day21.cpp">
+      <Filter>Day21</Filter>
+    </ClCompile>
+    <ClCompile Include="Day22\Day22.cpp">
+      <Filter>Day22</Filter>
+    </ClCompile>
+    <ClCompile Include="Day23\Day23.cpp">
+      <Filter>Day23</Filter>
+    </ClCompile>
+    <ClCompile Include="Day24\Day24.cpp">
+      <Filter>Day24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\AOCdays.h">
@@ -193,6 +241,30 @@
     </ClInclude>
     <ClInclude Include="Day16\Day16.h">
       <Filter>Day16</Filter>
+    </ClInclude>
+    <ClInclude Include="Day17\Day17.h">
+      <Filter>Day17</Filter>
+    </ClInclude>
+    <ClInclude Include="Day18\Day18.h">
+      <Filter>Day18</Filter>
+    </ClInclude>
+    <ClInclude Include="Day19\Day19.h">
+      <Filter>Day19</Filter>
+    </ClInclude>
+    <ClInclude Include="Day20\Day20.h">
+      <Filter>Day20</Filter>
+    </ClInclude>
+    <ClInclude Include="Day21\Day21.h">
+      <Filter>Day21</Filter>
+    </ClInclude>
+    <ClInclude Include="Day22\Day22.h">
+      <Filter>Day22</Filter>
+    </ClInclude>
+    <ClInclude Include="Day23\Day23.h">
+      <Filter>Day23</Filter>
+    </ClInclude>
+    <ClInclude Include="Day24\Day24.h">
+      <Filter>Day24</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

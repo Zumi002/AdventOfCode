@@ -59,14 +59,6 @@ class Valve
 	}
 };
 
-int TickMore(Valve* Active, vector<Valve*>& interestingValves, int timeleft, int myDist)
-{
-	if (timeleft > 0 && interestingValves.size())
-	{
-		return 1;
-	}
-	return 1;
-}
 
 //int NextMoveN(Valve* myActive, vector<Valve*>& interestingValves, int timeleft, int myDist, int eleDist)
 //{
@@ -107,7 +99,8 @@ int NextMove(Valve* myActive, Valve* eleActive,vector<Valve*> &interestingValves
 		
 		if (myDist != 0&&eleDist!=0)
 		{
-			return NextMove(myActive,eleActive, interestingValves, timeleft - 1, myDist-1,eleDist-1);
+			int a = myDist < eleDist ? myDist : eleDist;
+			return NextMove(myActive,eleActive, interestingValves, timeleft - a, myDist-a,eleDist-a);
 		}
 		else if(eleDist==0&&myDist==0)
 		{
@@ -259,4 +252,5 @@ void Day16()
 	int fullScore = NextMove(valves[index], valves[index], interestingValves, timeleft,0,0);
 
 	std::cout <<fullScore;
+	cin >> fullScore;
 }
