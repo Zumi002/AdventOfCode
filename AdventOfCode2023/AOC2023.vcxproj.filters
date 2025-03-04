@@ -99,79 +99,79 @@
     <ClCompile Include="Utility\SupportFunc.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Day1\Day1.cpp">
+    <ClCompile Include="Days\Day1\Day1.cpp">
       <Filter>Pliki źródłowe\Day1</Filter>
     </ClCompile>
-    <ClCompile Include="Day2\Day2.cpp">
+    <ClCompile Include="Days\Day2\Day2.cpp">
       <Filter>Pliki źródłowe\Day2</Filter>
     </ClCompile>
-    <ClCompile Include="Day3\Day3.cpp">
+    <ClCompile Include="Days\Day3\Day3.cpp">
       <Filter>Pliki źródłowe\Day3</Filter>
     </ClCompile>
-    <ClCompile Include="Day4\Day4.cpp">
+    <ClCompile Include="Days\Day4\Day4.cpp">
       <Filter>Pliki źródłowe\Day4</Filter>
     </ClCompile>
-    <ClCompile Include="Day5\Day5.cpp">
+    <ClCompile Include="Days\Day5\Day5.cpp">
       <Filter>Pliki źródłowe\Day5</Filter>
     </ClCompile>
-    <ClCompile Include="Day6\Day6.cpp">
+    <ClCompile Include="Days\Day6\Day6.cpp">
       <Filter>Pliki źródłowe\Day6</Filter>
     </ClCompile>
-    <ClCompile Include="Day7\Day7.cpp">
+    <ClCompile Include="Days\Day7\Day7.cpp">
       <Filter>Pliki źródłowe\Day7</Filter>
     </ClCompile>
-    <ClCompile Include="Day8\Day8.cpp">
+    <ClCompile Include="Days\Day8\Day8.cpp">
       <Filter>Pliki źródłowe\Day8</Filter>
     </ClCompile>
-    <ClCompile Include="Day9\Day9.cpp">
+    <ClCompile Include="Days\Day9\Day9.cpp">
       <Filter>Pliki źródłowe\Day9</Filter>
     </ClCompile>
-    <ClCompile Include="Day11\Day11.cpp">
+    <ClCompile Include="Days\Day11\Day11.cpp">
       <Filter>Pliki źródłowe\Day11</Filter>
     </ClCompile>
-    <ClCompile Include="Day12\Day12.cpp">
+    <ClCompile Include="Days\Day12\Day12.cpp">
       <Filter>Pliki źródłowe\Day12</Filter>
     </ClCompile>
-    <ClCompile Include="Day13\Day13.cpp">
+    <ClCompile Include="Days\Day13\Day13.cpp">
       <Filter>Pliki źródłowe\Day13</Filter>
     </ClCompile>
-    <ClCompile Include="Day10\Day10.cpp">
+    <ClCompile Include="Days\Day10\Day10.cpp">
       <Filter>Pliki źródłowe\Day12</Filter>
     </ClCompile>
-    <ClCompile Include="Day14\Day14.cpp">
+    <ClCompile Include="Days\Day14\Day14.cpp">
       <Filter>Pliki źródłowe\Day14</Filter>
     </ClCompile>
-    <ClCompile Include="Day15\Day15.cpp">
+    <ClCompile Include="Days\Day15\Day15.cpp">
       <Filter>Pliki źródłowe\Day15</Filter>
     </ClCompile>
-    <ClCompile Include="Day16\Day16.cpp">
+    <ClCompile Include="Days\Day16\Day16.cpp">
       <Filter>Pliki źródłowe\Day16</Filter>
     </ClCompile>
-    <ClCompile Include="Day17\Day17.cpp">
+    <ClCompile Include="Days\Day17\Day17.cpp">
       <Filter>Pliki źródłowe\Day17</Filter>
     </ClCompile>
-    <ClCompile Include="Day18\Day18.cpp">
+    <ClCompile Include="Days\Day18\Day18.cpp">
       <Filter>Pliki źródłowe\Day18</Filter>
     </ClCompile>
-    <ClCompile Include="Day19\Day19.cpp">
+    <ClCompile Include="Days\Day19\Day19.cpp">
       <Filter>Pliki źródłowe\Day19</Filter>
     </ClCompile>
-    <ClCompile Include="Day20\Day20.cpp">
+    <ClCompile Include="Days\Day20\Day20.cpp">
       <Filter>Pliki źródłowe\Day20</Filter>
     </ClCompile>
-    <ClCompile Include="Day21\Day21.cpp">
+    <ClCompile Include="Days\Day21\Day21.cpp">
       <Filter>Pliki źródłowe\Day21</Filter>
     </ClCompile>
-    <ClCompile Include="Day22\Day22.cpp">
+    <ClCompile Include="Days\Day22\Day22.cpp">
       <Filter>Pliki źródłowe\Day22</Filter>
     </ClCompile>
-    <ClCompile Include="Day23\Day23.cpp">
+    <ClCompile Include="Days\Day23\Day23.cpp">
       <Filter>Pliki źródłowe\Day23</Filter>
     </ClCompile>
-    <ClCompile Include="Day24\Day24.cpp">
+    <ClCompile Include="Days\Day24\Day24.cpp">
       <Filter>Pliki źródłowe\Day24</Filter>
     </ClCompile>
-    <ClCompile Include="Day25\Day25.cpp">
+    <ClCompile Include="Days\Day25\Day25.cpp">
       <Filter>Pliki źródłowe\Day25</Filter>
     </ClCompile>
   </ItemGroup>
@@ -185,79 +185,79 @@
     <ClInclude Include="Utility\SupportFunc.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
-    <ClInclude Include="Day1\Day1.h">
+    <ClInclude Include="Days\Day1\Day1.h">
       <Filter>Pliki źródłowe\Day1</Filter>
     </ClInclude>
-    <ClInclude Include="Day2\Day2.h">
+    <ClInclude Include="Days\Day2\Day2.h">
       <Filter>Pliki źródłowe\Day2</Filter>
     </ClInclude>
-    <ClInclude Include="Day3\Day3.h">
+    <ClInclude Include="Days\Day3\Day3.h">
       <Filter>Pliki źródłowe\Day3</Filter>
     </ClInclude>
-    <ClInclude Include="Day4\Day4.h">
+    <ClInclude Include="Days\Day4\Day4.h">
       <Filter>Pliki źródłowe\Day4</Filter>
     </ClInclude>
-    <ClInclude Include="Day5\Day5.h">
+    <ClInclude Include="Days\Day5\Day5.h">
       <Filter>Pliki źródłowe\Day5</Filter>
     </ClInclude>
-    <ClInclude Include="Day6\Day6.h">
+    <ClInclude Include="Days\Day6\Day6.h">
       <Filter>Pliki źródłowe\Day6</Filter>
     </ClInclude>
-    <ClInclude Include="Day7\Day7.h">
+    <ClInclude Include="Days\Day7\Day7.h">
       <Filter>Pliki źródłowe\Day7</Filter>
     </ClInclude>
-    <ClInclude Include="Day8\Day8.h">
+    <ClInclude Include="Days\Day8\Day8.h">
       <Filter>Pliki źródłowe\Day8</Filter>
     </ClInclude>
-    <ClInclude Include="Day9\Day9.h">
+    <ClInclude Include="Days\Day9\Day9.h">
       <Filter>Pliki źródłowe\Day9</Filter>
     </ClInclude>
-    <ClInclude Include="Day10\Day10.h">
+    <ClInclude Include="Days\Day10\Day10.h">
       <Filter>Pliki źródłowe\Day10</Filter>
     </ClInclude>
-    <ClInclude Include="Day11\Day11.h">
+    <ClInclude Include="Days\Day11\Day11.h">
       <Filter>Pliki źródłowe\Day11</Filter>
     </ClInclude>
-    <ClInclude Include="Day12\Day12.h">
+    <ClInclude Include="Days\Day12\Day12.h">
       <Filter>Pliki źródłowe\Day12</Filter>
     </ClInclude>
-    <ClInclude Include="Day13\Day13.h">
+    <ClInclude Include="Days\Day13\Day13.h">
       <Filter>Pliki źródłowe\Day13</Filter>
     </ClInclude>
-    <ClInclude Include="Day14\Day14.h">
+    <ClInclude Include="Days\Day14\Day14.h">
       <Filter>Pliki źródłowe\Day14</Filter>
     </ClInclude>
-    <ClInclude Include="Day15\Day15.h">
+    <ClInclude Include="Days\Day15\Day15.h">
       <Filter>Pliki źródłowe\Day15</Filter>
     </ClInclude>
-    <ClInclude Include="Day16\Day16.h">
+    <ClInclude Include="Days\Day16\Day16.h">
       <Filter>Pliki źródłowe\Day16</Filter>
     </ClInclude>
-    <ClInclude Include="Day17\Day17.h">
+    <ClInclude Include="Days\Day17\Day17.h">
       <Filter>Pliki źródłowe\Day17</Filter>
     </ClInclude>
-    <ClInclude Include="Day18\Day18.h">
+    <ClInclude Include="Days\Day18\Day18.h">
       <Filter>Pliki źródłowe\Day18</Filter>
     </ClInclude>
-    <ClInclude Include="Day19\Day19.h">
+    <ClInclude Include="Days\Day19\Day19.h">
       <Filter>Pliki źródłowe\Day19</Filter>
     </ClInclude>
-    <ClInclude Include="Day20\Day20.h">
+    <ClInclude Include="Days\Day20\Day20.h">
       <Filter>Pliki źródłowe\Day20</Filter>
     </ClInclude>
-    <ClInclude Include="Day21\Day21.h">
+    <ClInclude Include="Days\Day21\Day21.h">
       <Filter>Pliki źródłowe\Day21</Filter>
     </ClInclude>
-    <ClInclude Include="Day22\Day22.h">
+    <ClInclude Include="Days\Day22\Day22.h">
       <Filter>Pliki źródłowe\Day22</Filter>
     </ClInclude>
-    <ClInclude Include="Day23\Day23.h">
+    <ClInclude Include="Days\Day23\Day23.h">
       <Filter>Pliki źródłowe\Day23</Filter>
     </ClInclude>
-    <ClInclude Include="Day24\Day24.h">
+    <ClInclude Include="Days\Day24\Day24.h">
       <Filter>Pliki źródłowe\Day24</Filter>
     </ClInclude>
-    <ClInclude Include="Day25\Day25.h">
+    <ClInclude Include="Days\Day25\Day25.h">
       <Filter>Pliki źródłowe\Day25</Filter>
     </ClInclude>
   </ItemGroup>
