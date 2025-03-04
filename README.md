@@ -1,4 +1,9 @@
-
+# AdventOfCode
+This repository contains my solutions and participation history for Advent of Code. 
+It includes code implementations and rankings from each year.
+- [2022](AdventOfCode2022)
+- [2023](AdventOfCode2023)
+- [2024](AdventOfCode2024)
 ```html
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,####,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -49,7 +54,4 @@
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,((((((((((((((,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,((((((((((((((,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ```
-# AdventOfCode
-- [2022](AdventOfCode2022)
-- [2023](AdventOfCode2023)
-- [2024](AdventOfCode2024)
+
