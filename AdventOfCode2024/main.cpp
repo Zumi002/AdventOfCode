@@ -11,6 +11,6 @@ using namespace std;
 
 int main()
 {
-	Day25();
+	Day22();
 	return 0;
 }

@@ -1,4 +1,4 @@
-# Advent of Code 2022
+# Advent of Code 2023
 
  - Highest rank - 328
  - Avg. rank -  8196
