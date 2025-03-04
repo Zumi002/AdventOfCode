@@ -267,4 +267,7 @@
       <Filter>Day24</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
 </Project>
