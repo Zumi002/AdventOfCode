@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day1">
+      <UniqueIdentifier>{fe9b9c6d-e9f9-4e5e-a14f-33bbb265870f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day2">
+      <UniqueIdentifier>{4a15036d-aa46-4362-bdfa-8b5c77f586d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day3">
+      <UniqueIdentifier>{f9399008-7ee2-48ab-96cf-4c51ca2e184b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day4">
+      <UniqueIdentifier>{0233afb0-40da-401c-9bbb-f966e7f4e7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day5">
+      <UniqueIdentifier>{578e8e71-ab8b-4678-8aec-f9ed4a1ddd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day6">
+      <UniqueIdentifier>{700ee8aa-70f1-4ac3-8cb1-d38229f36026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day7">
+      <UniqueIdentifier>{2edc888c-1822-45c7-8244-89a85fa63a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day8">
+      <UniqueIdentifier>{ddae527d-735d-4c03-aa76-f9b85c0f4ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day9">
+      <UniqueIdentifier>{75a1565c-f72b-4ff8-b722-30b4429cf145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day10">
+      <UniqueIdentifier>{081f0c72-6305-4ac0-9790-9d9cb471598e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day11">
+      <UniqueIdentifier>{e88b2140-50cd-4475-bfcc-c4869ca1a67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day12">
+      <UniqueIdentifier>{3d586ca2-7e74-45d5-87c2-ffff609a7af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day13">
+      <UniqueIdentifier>{a728010a-b0a5-4985-b99b-b2059c58c7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day14">
+      <UniqueIdentifier>{8959fa6a-e063-4fa6-a76a-860f40403c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day15">
+      <UniqueIdentifier>{c30a833a-0c89-45d8-ae53-743f91740d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day16">
+      <UniqueIdentifier>{c86dd8ae-cc42-4c1c-98ef-c67afdd59a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day17">
+      <UniqueIdentifier>{5ae1dbac-3f75-4829-9ffe-e9cf3f02ac45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day18">
+      <UniqueIdentifier>{2bda0681-8fba-4f32-bf67-29495855a01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day19">
+      <UniqueIdentifier>{9ab351a5-1181-490f-a712-061a4f0208bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day20">
+      <UniqueIdentifier>{856acc18-f73a-481e-9653-b111f860f1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day21">
+      <UniqueIdentifier>{c745c8ed-6496-4195-ab7c-58c66f56bf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day22">
+      <UniqueIdentifier>{13ceea5c-ba80-47a2-bcac-6e79745fa574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day23">
+      <UniqueIdentifier>{6ac28929-f314-4e3a-8f00-0535702a1409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day24">
+      <UniqueIdentifier>{80700dc5-2ec2-4b0b-87c9-e9dde1df7662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Day25">
+      <UniqueIdentifier>{692fdbf4-9509-4486-a927-3572e13298ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\FileReading.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\SupportFunc.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Day1\Day1.cpp">
+      <Filter>Pliki źródłowe\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2\Day2.cpp">
+      <Filter>Pliki źródłowe\Day2</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Day3.cpp">
+      <Filter>Pliki źródłowe\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day4\Day4.cpp">
+      <Filter>Pliki źródłowe\Day4</Filter>
+    </ClCompile>
+    <ClCompile Include="Day5\Day5.cpp">
+      <Filter>Pliki źródłowe\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Day6\Day6.cpp">
+      <Filter>Pliki źródłowe\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Day7\Day7.cpp">
+      <Filter>Pliki źródłowe\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8\Day8.cpp">
+      <Filter>Pliki źródłowe\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Day9\Day9.cpp">
+      <Filter>Pliki źródłowe\Day9</Filter>
+    </ClCompile>
+    <ClCompile Include="Day11\Day11.cpp">
+      <Filter>Pliki źródłowe\Day11</Filter>
+    </ClCompile>
+    <ClCompile Include="Day12\Day12.cpp">
+      <Filter>Pliki źródłowe\Day12</Filter>
+    </ClCompile>
+    <ClCompile Include="Day13\Day13.cpp">
+      <Filter>Pliki źródłowe\Day13</Filter>
+    </ClCompile>
+    <ClCompile Include="Day10\Day10.cpp">
+      <Filter>Pliki źródłowe\Day12</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14\Day14.cpp">
+      <Filter>Pliki źródłowe\Day14</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15\Day15.cpp">
+      <Filter>Pliki źródłowe\Day15</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16\Day16.cpp">
+      <Filter>Pliki źródłowe\Day16</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17\Day17.cpp">
+      <Filter>Pliki źródłowe\Day17</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18\Day18.cpp">
+      <Filter>Pliki źródłowe\Day18</Filter>
+    </ClCompile>
+    <ClCompile Include="Day19\Day19.cpp">
+      <Filter>Pliki źródłowe\Day19</Filter>
+    </ClCompile>
+    <ClCompile Include="Day20\Day20.cpp">
+      <Filter>Pliki źródłowe\Day20</Filter>
+    </ClCompile>
+    <ClCompile Include="Day21\Day21.cpp">
+      <Filter>Pliki źródłowe\Day21</Filter>
+    </ClCompile>
+    <ClCompile Include="Day22\Day22.cpp">
+      <Filter>Pliki źródłowe\Day22</Filter>
+    </ClCompile>
+    <ClCompile Include="Day23\Day23.cpp">
+      <Filter>Pliki źródłowe\Day23</Filter>
+    </ClCompile>
+    <ClCompile Include="Day24\Day24.cpp">
+      <Filter>Pliki źródłowe\Day24</Filter>
+    </ClCompile>
+    <ClCompile Include="Day25\Day25.cpp">
+      <Filter>Pliki źródłowe\Day25</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility\AOCdays.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\FileReading.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SupportFunc.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Day1\Day1.h">
+      <Filter>Pliki źródłowe\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="Day2\Day2.h">
+      <Filter>Pliki źródłowe\Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Day3.h">
+      <Filter>Pliki źródłowe\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="Day4\Day4.h">
+      <Filter>Pliki źródłowe\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="Day5\Day5.h">
+      <Filter>Pliki źródłowe\Day5</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\Day6.h">
+      <Filter>Pliki źródłowe\Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day7\Day7.h">
+      <Filter>Pliki źródłowe\Day7</Filter>
+    </ClInclude>
+    <ClInclude Include="Day8\Day8.h">
+      <Filter>Pliki źródłowe\Day8</Filter>
+    </ClInclude>
+    <ClInclude Include="Day9\Day9.h">
+      <Filter>Pliki źródłowe\Day9</Filter>
+    </ClInclude>
+    <ClInclude Include="Day10\Day10.h">
+      <Filter>Pliki źródłowe\Day10</Filter>
+    </ClInclude>
+    <ClInclude Include="Day11\Day11.h">
+      <Filter>Pliki źródłowe\Day11</Filter>
+    </ClInclude>
+    <ClInclude Include="Day12\Day12.h">
+      <Filter>Pliki źródłowe\Day12</Filter>
+    </ClInclude>
+    <ClInclude Include="Day13\Day13.h">
+      <Filter>Pliki źródłowe\Day13</Filter>
+    </ClInclude>
+    <ClInclude Include="Day14\Day14.h">
+      <Filter>Pliki źródłowe\Day14</Filter>
+    </ClInclude>
+    <ClInclude Include="Day15\Day15.h">
+      <Filter>Pliki źródłowe\Day15</Filter>
+    </ClInclude>
+    <ClInclude Include="Day16\Day16.h">
+      <Filter>Pliki źródłowe\Day16</Filter>
+    </ClInclude>
+    <ClInclude Include="Day17\Day17.h">
+      <Filter>Pliki źródłowe\Day17</Filter>
+    </ClInclude>
+    <ClInclude Include="Day18\Day18.h">
+      <Filter>Pliki źródłowe\Day18</Filter>
+    </ClInclude>
+    <ClInclude Include="Day19\Day19.h">
+      <Filter>Pliki źródłowe\Day19</Filter>
+    </ClInclude>
+    <ClInclude Include="Day20\Day20.h">
+      <Filter>Pliki źródłowe\Day20</Filter>
+    </ClInclude>
+    <ClInclude Include="Day21\Day21.h">
+      <Filter>Pliki źródłowe\Day21</Filter>
+    </ClInclude>
+    <ClInclude Include="Day22\Day22.h">
+      <Filter>Pliki źródłowe\Day22</Filter>
+    </ClInclude>
+    <ClInclude Include="Day23\Day23.h">
+      <Filter>Pliki źródłowe\Day23</Filter>
+    </ClInclude>
+    <ClInclude Include="Day24\Day24.h">
+      <Filter>Pliki źródłowe\Day24</Filter>
+    </ClInclude>
+    <ClInclude Include="Day25\Day25.h">
+      <Filter>Pliki źródłowe\Day25</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
